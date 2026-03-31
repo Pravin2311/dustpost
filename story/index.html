@@ -29,7 +29,7 @@ body {
 
 .logo {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .logo span {
@@ -119,13 +119,22 @@ body {
 }
 
 </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDDC7TT26T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZDDC7TT26T');
+</script>
 </head>
 
 <body>
 
 <!-- NAV -->
 <div class="nav">
-    <div class="logo">Dust<span>Post</span></div>
+    <div class="logo">Dust<span>Post.com</span></div>
     <div>
         <a href="/">Home</a>
     </div>
@@ -169,14 +178,14 @@ const posts = [
         title: "Iran–US War: Strategy Shift & Global Oil Risk",
         description: "US signals exit while Iran gains leverage through oil disruption and economic pressure.",
         image: "/images/iran-war.jpg",
-        link: "/story/iran-us-war-analysis.html",
+        link: "iran-us-war-end-game.html",
         date: "March 29, 2026"
     },
     {
         title: "Trump Warns Allies Amid Iran War Oil Crisis",
         description: "US signals shift in alliances as oil disruption in Hormuz impacts global markets.",
         image: "/images/trump-allies.jpg",
-        link: "/story/trump-warns-allies-on-oil-supply.html",
+        link: "trump-warns-allies-on-oil-supply.html",
         date: "March 28, 2026"
     }
 ];
