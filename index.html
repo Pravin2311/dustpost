@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DustPost — Global News Explained Simply</title>
+
+<meta name="description" content="DustPost delivers clear, simple, and reliable global news insights. Understand global events, economy, and geopolitics with ease.">
+
+<meta name="keywords" content="global news, geopolitics, economy, India impact, explained news, DustPost">
+
+<link rel="canonical" href="https://dustpost.com/">
+
+<!-- Open Graph -->
+<meta property="og:title" content="DustPost — Global News Explained Simply">
+<meta property="og:description" content="Understand the world without noise. Clear global news insights.">
+<meta property="og:image" content="https://dustpost.com/images/cover.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://dustpost.com/">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="DustPost — Global News Explained">
+<meta name="twitter:description" content="Clear global insights. No noise.">
+<meta name="twitter:image" content="https://dustpost.com/images/cover.jpg">
+
+<!-- FONTS -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- SCHEMA -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Organization",
+ "name": "DustPost",
+ "url": "https://dustpost.com",
+ "logo": "https://dustpost.com/logo.png",
+ "sameAs": []
+}
+</script>
+
+<style>
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL */
+body {
+    font-family: 'Inter', sans-serif;
+    background: #0f1115;
+    color: #e6e6e6;
+}
+
+/* NAV */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #1f2229;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.logo span {
+    color: #4da3ff;
+}
+
+.nav a {
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+/* HERO */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    margin-top: 120px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    line-height: 1.3;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #4da3ff;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #3390ff;
+}
+
+/* TRUST SECTION */
+.trust {
+    margin-top: 120px;
+}
+
+.trust h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* GRID */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* CARD */
+.card {
+    background: #161a22;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #1f2229;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    background: #1c212b;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 100px;
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid #1f2229;
+    color: #777;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #aaa;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff;
+}
+/* TOP STORIES */
+.top-stories {
+    margin-top: 80px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.top-stories h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+/* GRID FIX */
+.stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+/* CARD FIX */
+.story-card {
+    background: #161a22;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #1f2229;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* REMOVE THIS (IMPORTANT) */
+/* width: 50%;  ❌ DELETE THIS */
+
+.story-card:hover {
+    transform: translateY(-5px);
+    background: #1c212b;
+}
+
+.story-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.story-content {
+    padding: 14px;
+}
+
+.story-content h3 {
+    font-size: 15px;
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
+.story-content p {
+    font-size: 13px;
+    color: #aaa;
+}
+
+/* MOBILE OPTIMIZATION */
+@media (max-width: 768px) {
+    .story-card img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .stories-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- NAV -->
+<div class="nav">
+    <div class="logo">Dust<span>Post</span></div>
+    <div>
+        <a href="/story/index.html">Explore</a>
+        <a href="/about.html">About</a>
+    </div>
+</div>
+
+<!-- HERO -->
+<div class="container hero">
+    <h1>Understand the World Without the Noise</h1>
+    <p>
+        Clear, simple, and reliable global news—explained in a way that actually makes sense.
+    </p>
+
+    <a href="/story/index.html" class="btn">Explore Stories →</a>
+</div>
+<div class="top-stories">
+
+    <h2>Top Stories</h2>
+
+    <div class="stories-grid" id="topStories"></div>
+
+</div>
+<!-- TRUST -->
+<div class="container trust">
+    <h2>Why DustPost?</h2>
+
+    <div class="features">
+
+        <div class="card">
+            <h3>🌍 Global Focus</h3>
+            <p>Stay updated with major events shaping the world.</p>
+        </div>
+
+        <div class="card">
+            <h3>🧠 Simple Explanations</h3>
+            <p>No jargon. Just clear insights you can understand quickly.</p>
+        </div>
+
+        <div class="card">
+            <h3>⚡ Fast Updates</h3>
+            <p>Timely articles that keep you ahead of the news.</p>
+        </div>
+
+        <div class="card">
+            <h3>📊 Real Impact</h3>
+            <p>Understand how global events affect you and India.</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="footer">
+    © 2026 DustPost — Clarity Beyond Headlines <br><br>
+    <a href="/about.html">About</a>
+    <a href="/privacy.html">Privacy</a>
+    <a href="/contact.html">Contact</a>
+</div>
+<script>
+
+const topStories = [
+    {
+        title: "Iran Controls Strait of Hormuz",
+        desc: "Global oil supply at risk as tensions rise.",
+        image: "images/hormuz-hero.jpg",
+        link: "story/strait-of-hormuz-control.html"
+    },
+    {
+        title: "India Economy 2026: Inflation Surge, FII Exit & Oil Shock Risks",
+        desc: "Iran-US war impact, rupee fall, rising inflation, and widening deficit—complete breakdown of India’s economic outlook.",
+        image: "images/inr-chart.jpg",
+        link: "/story/indian-2026-economic-outlook.html"
+    },
+    {
+        title: "Iran–US War: Strategy Shift & Global Oil Risk",
+        desc: "US signals exit while Iran gains leverage through oil disruption and economic pressure",
+        image: "images/iran-war.jpg",
+        link: "/story/iran-us-war-end-game.html"
+    },
+    {
+        title: "Trump Warns Allies Amid Iran War Oil Crisis",
+        desc: "US signals shift in alliances as oil disruption in Hormuz impacts global markets.",
+        image: "images/trump-allies.jpg",
+        link: "/story/trump-warns-allies-on-oil-supply.html"
+    }
+];
+
+const container = document.getElementById("topStories");
+
+topStories.forEach(story => {
+    const card = document.createElement("div");
+    card.className = "story-card";
+    card.onclick = () => window.location.href = story.link;
+
+    card.innerHTML = `
+        <img src="${story.image}" alt="${story.title}">
+        <div class="story-content">
+            <h3>${story.title}</h3>
+            <p>${story.desc}</p>
+        </div>
+    `;
+
+    container.appendChild(card);
+});
+
+</script>
+</body>
+</html>
