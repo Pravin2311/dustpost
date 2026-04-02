@@ -118,6 +118,124 @@ body {
     color: #777;
 }
 
+/* SECTION TITLE */
+.section-title {
+    font-size: 20px;
+    margin: 30px 0 15px;
+    color: #fff;
+}
+
+/* LATEST (BIG CARDS) */
+.latest-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+}
+
+.latest-card {
+    background: #161a22;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.latest-card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.latest-card-content {
+    padding: 16px;
+}
+
+.latest-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.latest-card p {
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* MORE (COMPACT GRID) */
+.more-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 15px;
+}
+
+.more-card {
+    display: flex;
+    gap: 10px;
+    background: transparent;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.more-card:hover {
+    background: #1c212b;
+}
+
+.more-card img {
+    width: 100px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.more-card-content h4 {
+    font-size: 14px;
+    margin: 0 0 5px;
+}
+
+.more-card-content p {
+    font-size: 12px;
+    color: #888;
+}
+/* MID SIZE (for page 2+) */
+.mid-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 18px;
+}
+
+.mid-card {
+    background: #161a22;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mid-card:hover {
+    transform: translateY(-4px);
+    background: #1c212b;
+}
+
+.mid-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.mid-card-content {
+    padding: 12px;
+}
+
+.mid-card h3 {
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.mid-card p {
+    font-size: 12px;
+    color: #888;
+}
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDDC7TT26T"></script>
@@ -148,7 +266,15 @@ body {
 
 <!-- BLOG GRID -->
 <div class="container">
-    <div class="grid" id="blogContainer"></div>
+ 
+<h2 class="section-title" id="latestTitle">Latest Stories</h2>
+<div class="latest-grid" id="latestContainer"></div>
+
+<h2 class="section-title" id="moreTitle">More Stories</h2>
+<div class="more-grid" id="moreContainer"></div>
+
+<div id="pagination" style="text-align:center; margin:30px 0;"></div>
+
 </div>
 
 <!-- FOOTER -->
@@ -160,6 +286,13 @@ body {
 
 /* BLOG DATA (ADD ARTICLES HERE) */
 const posts = [
+    {
+        title: "Iran’s Open Letter to Americans: What It Really Means",
+        description: "Beyond peace—inside Iran’s strategy, messaging, and global impact.",
+        image: "/images/iran-letter-thumbnail.jpg",
+        link: "iran-letter-to-americans.html",
+        date: "April 2, 2026"
+    },
     {
         title: "Fuel Prices Surge in India: Diesel Up ₹25/Litre",
         description: "Nayara and Shell hike petrol and diesel prices sharply amid global oil shock.",
@@ -220,25 +353,128 @@ const posts = [
     
 ];
 
+
 /* RENDER POSTS */
-const container = document.getElementById("blogContainer");
 
-posts.forEach(post => {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.onclick = () => window.location.href = post.link;
 
-    card.innerHTML = `
-        <img src="${post.image}" alt="${post.title}">
-        <div class="card-content">
-            <h3>${post.title}</h3>
-            <p>${post.description}</p>
-            <div class="meta">${post.date}</div>
-        </div>
-    `;
 
-    container.appendChild(card);
-});
+/* CONFIG */
+const LATEST_COUNT = 6;
+const MORE_COUNT = 8;
+const POSTS_PER_PAGE = 14;
+
+let currentPage = 1;
+
+posts.sort((a,b) => new Date(b.date) - new Date(a.date));
+
+function renderPage(page) {
+
+    const start = (page - 1) * POSTS_PER_PAGE;
+    const end = start + POSTS_PER_PAGE;
+
+    const pagePosts = posts.slice(start, end);
+
+    const latestContainer = document.getElementById("latestContainer");
+    const moreContainer = document.getElementById("moreContainer");
+
+    const latestTitle = document.getElementById("latestTitle");
+
+    latestContainer.innerHTML = "";
+    moreContainer.innerHTML = "";
+
+    // 👉 PAGE 1
+    if (page === 1) {
+
+        latestTitle.style.display = "block";
+
+        /* LATEST */
+        pagePosts.slice(0, LATEST_COUNT).forEach(post => {
+            latestContainer.innerHTML += `
+            <div class="latest-card" onclick="location.href='${post.link}'">
+                <img src="${post.image}">
+                <div class="latest-card-content">
+                    <h3>${post.title}</h3>
+                    <p>${post.description}</p>
+                </div>
+            </div>
+            `;
+        });
+
+        /* MORE (SMALL) */
+        moreContainer.className = "more-grid";
+
+        pagePosts.slice(LATEST_COUNT).forEach(post => {
+            moreContainer.innerHTML += `
+            <div class="more-card" onclick="location.href='${post.link}'">
+                <img src="${post.image}">
+                <div class="more-card-content">
+                    <h4>${post.title}</h4>
+                    <p>${post.date}</p>
+                </div>
+            </div>
+            `;
+        });
+
+    } 
+    // 👉 PAGE 2+
+    else {
+
+        latestTitle.style.display = "none";
+        latestContainer.innerHTML = "";
+
+        /* MID SIZE GRID */
+        moreContainer.className = "mid-grid";
+
+        pagePosts.forEach(post => {
+            moreContainer.innerHTML += `
+            <div class="mid-card" onclick="location.href='${post.link}'">
+                <img src="${post.image}">
+                <div class="mid-card-content">
+                    <h3>${post.title}</h3>
+                    <p>${post.date}</p>
+                </div>
+            </div>
+            `;
+        });
+
+    }
+}
+
+/* PAGINATION */
+function renderPagination() {
+
+    const totalPages = Math.ceil(posts.length / POSTS_PER_PAGE);
+    const container = document.getElementById("pagination");
+
+    container.innerHTML = "";
+
+    if (currentPage > 1) {
+        container.innerHTML += `<button onclick="goToPage(${currentPage - 1})">← Prev</button>`;
+    }
+
+    for (let i = 1; i <= totalPages; i++) {
+        container.innerHTML += `
+        <button onclick="goToPage(${i})">${i}</button>
+        `;
+    }
+
+    if (currentPage < totalPages) {
+        container.innerHTML += `<button onclick="goToPage(${currentPage + 1})">Next →</button>`;
+    }
+}
+
+function goToPage(page) {
+    currentPage = page;
+    renderPage(page);
+    renderPagination();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+/* INIT */
+renderPage(currentPage);
+renderPagination();
+
+</script>
 
 </script>
 
