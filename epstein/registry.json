@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ALLEGATION-001",
+    "title": "Trafficking of Minors for Sexual Acts",
+    "status": "verified",
+    "date": "2026-04-05",
+    "url": "trafficking-minors-epstein-files.html",
+    "excerpt": "Federal prosecutors established that Epstein engaged in sex trafficking of minors, with multiple victims providing consistent testimony and corroborating evidence including flight logs, financial records, and witness statements.",
+    "caseRef": "U.S. v. Epstein, 1:19-cr-00490 (S.D.N.Y.); Plea Agreement, 2008",
+    "tags": ["trafficking", "minors", "federal-indictment"]
+  },
+  {
+    "id": "ALLEGATION-002",
+    "title": "Involvement of Specific Associates in Alleged Activities",
+    "status": "alleged",
+    "date": "2026-04-05",
+    "url": "associate-involvement-epstein-files.html",
+    "excerpt": "Multiple civil filings contain allegations that specific individuals participated in or facilitated alleged unlawful activities. These claims remain unadjudicated in criminal court and are contested by named individuals.",
+    "caseRef": "Giuffre v. Maxwell, 1:15-cv-07433 (S.D.N.Y.); Unsealed Deposition Excerpts, 2019",
+    "tags": ["civil-claims", "associates", "unadjudicated"]
+  },
+  {
+    "id": "ALLEGATION-003",
+    "title": "Alleged Activities at Specific Private Residence",
+    "status": "disputed",
+    "date": "2026-04-05",
+    "url": "specific-location-claim-epstein-files.html",
+    "excerpt": "Certain media reports and unsealed documents reference allegations of activities at a specific private residence. Property owners and named individuals have publicly denied these claims, and no criminal charges have been filed related to this specific location.",
+    "caseRef": "Unsealed Flight Logs, 2019; Public Denials (2019-2023)",
+    "tags": ["location", "media-reports", "contested"]
+  },
+  {
+    "id": "ALLEGATION-004",
+    "title": "2008 Non-Prosecution Agreement (NPA) Terms",
+    "status": "verified",
+    "date": "2026-04-06",
+    "url": "2008-non-prosecution-agreement-terms-npa.html",
+    "excerpt": "Federal court findings confirmed the 2008 NPA violated the Crime Victims' Rights Act, though specific terms of the agreement remain a subject of legal review.",
+    "caseRef": "Jane Doe 1 & 2 v. United States, 1:08-cv-80736",
+    "tags": ["legal-procedure", "npa", "victims-rights"]
+  },
+  {
+    "id": "ALLEGATION-005",
+    "title": "Alleged Activities at Private Island (Great Saint James)",
+    "status": "alleged",
+    "date": "2026-04-06",
+    "url": "alleged-activities-at-private-island-great-saint-james.html",
+    "excerpt": "Multiple reports allege unlawful activities at Epstein's private island. While ownership and visits are documented, specific claims regarding activities remain unadjudicated and contested.",
+    "caseRef": "Giuffre v. Maxwell; Media Reports",
+    "tags": ["island", "alleged", "media-reports"]
+  }
+]
