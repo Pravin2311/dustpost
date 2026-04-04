@@ -48,5 +48,216 @@
     "excerpt": "Multiple reports allege unlawful activities at Epstein's private island. While ownership and visits are documented, specific claims regarding activities remain unadjudicated and contested.",
     "caseRef": "Giuffre v. Maxwell; Media Reports",
     "tags": ["island", "alleged", "media-reports"]
+  },
+  
+  {
+    "id": "ALLEGATION-006",
+    "title": "Flight Logs & Travel Patterns: Documented Records vs. Interpretations",
+    "status": "alleged",
+    "date": "2026-04-07",
+    "url": "flight-logs-epstein-files.html",
+    "excerpt": "Unsealed flight logs document aircraft movements associated with Epstein's fleet. Media and civil complaints have used these logs to allege participation, though legal experts note presence alone doesn't establish liability.",
+    "caseRef": "U.S. v. Epstein, 1:19-cr-00490 (S.D.N.Y.)",
+    "tags": ["flight-logs", "evidence", "interpretation"]
+  },
+  {
+    "id": "ALLEGATION-007",
+    "title": "Ghislaine Maxwell's 2021 Criminal Conviction",
+    "status": "verified",
+    "date": "2026-04-07",
+    "url": "maxwell-conviction-epstein-files.html",
+    "excerpt": "Verified court findings regarding the 2021 federal conviction of Ghislaine Maxwell on five counts of sex trafficking of minors and conspiracy. Distinguishes adjudicated facts from appellate claims.",
+    "caseRef": "U.S. v. Maxwell, 1:20-cr-00330 (S.D.N.Y.)",
+    "tags": ["conviction", "federal-trial", "verified"]
+  },
+  {
+    "id": "ALLEGATION-008",
+    "title": "Financial Networks & Corporate Structures",
+    "status": "alleged",
+    "date": "2026-04-07",
+    "url": "financial-networks-epstein-files.html",
+    "excerpt": "Public corporate and bankruptcy records document Epstein's use of shell companies and trusts. Allegations of asset concealment remain under investigation and unadjudicated.",
+    "caseRef": "In re: Estate of Jeffrey E. Epstein, No. 19-00491 (VI Bankr.)",
+    "tags": ["corporate-registry", "bankruptcy", "alleged-concealment"]
+  },
+  {
+    "id": "ALLEGATION-009",
+    "title": "2019 Custody Death Investigation: Official Findings",
+    "status": "verified",
+    "date": "2026-04-08",
+    "url": "epstein-custody-death-investigation.html",
+    "excerpt": "Verified findings from the DOJ OIG report regarding procedural failures, staffing shortages, and equipment malfunctions surrounding the 2019 custody death.",
+    "caseRef": "DOJ OIG Report (June 2023); NYC OCME Records",
+    "tags": ["custody", "doj-oig", "procedural-failures"]
+  },
+  {
+    "id": "ALLEGATION-010",
+    "title": "Epstein Victims' Compensation Program (EVCP)",
+    "status": "alleged",
+    "date": "2026-04-08",
+    "url": "epstein-files-victims-compensation.html",
+    "excerpt": "Verified public records regarding the voluntary compensation program structure. Individual claim details remain strictly sealed per court order.",
+    "caseRef": "EVCP Final Report; USVI Probate Court Orders",
+    "tags": ["compensation", "sealed-records", "administrative"]
+  },
+  {
+    "id": "ALLEGATION-011",
+    "title": "\"Perversion of Justice\" Investigation & 2008 Case Review",
+    "status": "alleged",
+    "date": "2026-04-08",
+    "url": "epstein-files-media-investigation-review.html",
+    "excerpt": "Official DOJ OIG conclusions and Pulitzer-recognized investigative reporting regarding the 2008 case handling. Distinguishes administrative findings from unproven claims.",
+    "caseRef": "DOJ OIG Report (2020); Miami Herald Series",
+    "tags": ["investigation", "oig-report", "journalism"]
+  },
+    {
+    "id": "ALLEGATION-012",
+    "title": "Civil Litigation & Third-Party Settlements",
+    "status": "alleged",
+    "date": "2026-04-09",
+    "url": "civil-litigation-settlements-espstein-files.html",
+    "excerpt": "Verified public records regarding civil litigation, settlements, and dismissals. Court outcomes documented without establishing liability or validating unadjudicated claims.",
+    "caseRef": "Giuffre v. Maxwell, 1:15-cv-07433; Various Third-Party Dockets",
+    "tags": ["civil-litigation", "settlements", "court-outcomes"]
+  },
+  {
+    "id": "ALLEGATION-013",
+    "title": "Real Estate Holdings & Property Records",
+    "status": "alleged",
+    "date": "2026-04-09",
+    "url": "epstein-real-estate-property-records.html",
+    "excerpt": "Verified public deeds, tax assessments, and corporate ownership documents. Ownership data clearly separated from unverified activity claims.",
+    "caseRef": "County Recorder Databases; USVI Bankruptcy Asset Schedules",
+    "tags": ["real-estate", "property-records", "public-deeds"]
+  },
+  {
+    "id": "ALLEGATION-014",
+    "title": "2019 Document Unsealing & Judicial Process",
+    "status": "verified",
+    "date": "2026-04-09",
+    "url": "epstein-document-unsealing-process.html",
+    "excerpt": "Verified judicial orders and procedural history regarding the 2019-2020 document unsealing process. Distinguishes court-approved releases from media interpretation.",
+    "caseRef": "S.D.N.Y. Unsealing Orders (2019-2020); Second Circuit Precedent",
+    "tags": ["document-unsealing", "judicial-process", "transparency"]
+  },
+    {
+    "id": "ALLEGATION-015",
+    "title": "Law Enforcement & FBI Investigation Timeline",
+    "status": "alleged",
+    "date": "2026-04-10",
+    "url": "epstein-files-fbi-investigation-timeline.html",
+    "excerpt": "Verified procedural history of federal and local law enforcement investigations. Investigative steps documented without establishing liability or validating unproven interference claims.",
+    "caseRef": "DOJ OIG Report (2020); FBI Warrant Affidavits (2019)",
+    "tags": ["law-enforcement", "fbi", "procedural-history"]
+  },
+  {
+    "id": "ALLEGATION-016",
+    "title": "Academic, Scientific & Institutional Connections",
+    "status": "alleged",
+    "date": "2026-04-10",
+    "url": "epsteins-academic-institutional-connection.html",
+    "excerpt": "Verified public records regarding donations, visiting appointments, and institutional reviews. Separates documented academic ties from unadjudicated allegations of influence or complicity.",
+    "caseRef": "University Review Reports; IRS 990 Filings",
+    "tags": ["academic", "donations", "institutional-review"]
+  },
+  {
+    "id": "ALLEGATION-017",
+    "title": "Media Coverage Evolution & Journalistic Standards",
+    "status": "alleged",
+    "date": "2026-04-10",
+    "url": "epstein-files-media-coverage-journalistic-standards.html",
+    "excerpt": "Verified history of professional journalism, editorial standards, corrections, and public discourse. Distinguishes verified reporting from unadjudicated claims about media suppression or amplification.",
+    "caseRef": "Published Archives; Official Corrections; Journalism Reviews",
+    "tags": ["media", "journalism", "editorial-standards"]
+  },
+    {
+    "id": "ALLEGATION-018",
+    "title": "International Diplomatic & Travel Records",
+    "status": "alleged",
+    "date": "2026-04-11",
+    "url": "diplomatic-travel-records-to-epstein-island.html",
+    "excerpt": "Verified passport administration, visa protocols, and State Department procedures. Separates documented travel administration from unverified claims of diplomatic protection or immunity.",
+    "caseRef": "State Dept Archives; Federal Passport Notices; Interpol Public Records",
+    "tags": ["travel", "diplomatic", "administrative-records"]
+  },
+  {
+    "id": "ALLEGATION-019",
+    "title": "Survivor Advocacy & Policy Reform Outcomes",
+    "status": "alleged",
+    "date": "2026-04-11",
+    "url": "survivor-advocacy-policy-reform-epstein-files.html",
+    "excerpt": "Verified institutional policy changes, legislative responses, and advocacy outcomes. Separates documented reforms from unadjudicated claims about systemic accountability.",
+    "caseRef": "Legislative Texts; DOJ CVRA Guidance; Institutional Policy Publications",
+    "tags": ["policy-reform", "advocacy", "institutional-change"]
+  },
+  {
+    "id": "ALLEGATION-020",
+    "title": "Forensic & Medical Evidence Protocols",
+    "status": "alleged",
+    "date": "2026-04-11",
+    "url": "forensic-medical-evidence-protocols-epstein-files.html",
+    "excerpt": "Verified forensic standards, medical examiner protocols, and independent review procedures. Separates established evidentiary protocols from disputed interpretations or speculative tampering claims.",
+    "caseRef": "NYC OCME Guidelines; NAME Standards; Independent Review Reports",
+    "tags": ["forensic", "medical-examiner", "evidence-protocols"]
+  },
+  {
+    "id": "ALLEGATION-021",
+    "title": "Estate Liquidation & Court-Supervised Asset Distribution",
+    "status": "alleged",
+    "date": "2026-04-12",
+    "url": "epsteins-estate-liquidation-asset-distribution.html",
+    "excerpt": "Verified probate and bankruptcy administration records regarding estate liquidation, court-approved distribution plans, and creditor/victim compensation frameworks.",
+    "caseRef": "USVI Probate Dockets; Bankruptcy Trustee Reports; Court-Approved Distribution Plans",
+    "tags": ["probate", "bankruptcy", "court-supervised-distribution"]
+  },
+  {
+    "id": "ALLEGATION-022",
+    "title": "Cybersecurity & Digital Evidence Preservation Protocols",
+    "status": "alleged",
+    "date": "2026-04-12",
+    "url": "cybersecurity-digital-evidence-epstein-files.html",
+    "excerpt": "Verified digital forensics standards, chain-of-custody documentation, and device handling protocols. Separates established evidentiary procedures from unverified tampering claims.",
+    "caseRef": "NIST SP 800-86; FBI Cyber Division Guidelines; Court-Approved Forensic Reports",
+    "tags": ["digital-forensics", "chain-of-custody", "evidence-preservation"]
+  },
+  {
+    "id": "ALLEGATION-023",
+    "title": "International Mutual Legal Assistance & Extradition Protocols",
+    "status": "alleged",
+    "date": "2026-04-12",
+    "url": "mutual-legal-assistance-extradition-epstein-files.html",
+    "excerpt": "Verified MLAT frameworks, sovereign jurisdiction boundaries, and formal extradition procedures. Separates established treaty-based cooperation from unverified claims of diplomatic obstruction.",
+    "caseRef": "State Dept MLAT Archives; Bilateral Treaty Texts; Interpol Guidelines",
+    "tags": ["international-law", "extradition", "treaty-procedures"]
+  },
+    {
+    "id": "ALLEGATION-024",
+    "title": "Insurance & Liability Coverage Disputes",
+    "status": "alleged",
+    "date": "2026-04-13",
+    "url": "insurance-liability-coverage-epstein-files.html",
+    "excerpt": "Verified insurance policy frameworks, court rulings on coverage disputes, and standard liability exclusions. Separates documented contract terms from unverified payout claims.",
+    "caseRef": "Federal/State Coverage Opinions; State Insurance Regulatory Filings",
+    "tags": ["insurance", "liability", "contract-disputes"]
+  },
+  {
+    "id": "ALLEGATION-025",
+    "title": "Corporate Governance & Board Oversight Reviews",
+    "status": "alleged",
+    "date": "2026-04-13",
+    "url": "corporate-governance-board-oversight.html",
+    "excerpt": "Verified board resolutions, independent committee reports, and fiduciary compliance disclosures. Separates documented governance reforms from unproven complicity claims.",
+    "caseRef": "SEC/990 Filings; Independent Committee Reports; Governance Disclosures",
+    "tags": ["corporate-governance", "board-oversight", "fiduciary-duty"]
+  },
+  {
+    "id": "ALLEGATION-026",
+    "title": "Media Ethics, Corrections & Retraction Policies",
+    "status": "alleged",
+    "date": "2026-04-13",
+    "url": "media-ethics-corrections-retractions-epstein-files.html",
+    "excerpt": "Verified editorial corrections, published retractions, and journalism ethics frameworks. Separates documented accountability mechanisms from unverified narrative claims.",
+    "caseRef": "Published Corrections/Retractions; SPJ Code of Ethics; Defamation Litigation Records",
+    "tags": ["media-ethics", "editorial-accountability", "corrections"]
   }
 ]
