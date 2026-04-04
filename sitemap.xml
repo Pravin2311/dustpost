@@ -1,113 +1,218 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Homepage -->
-  <url>
-    <loc>https://dustpost.com/</loc>
-    <lastmod>2026-04-02T10:45:26+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- Category Page -->
-  <url>
-    <loc>https://dustpost.com/story/</loc>
-    <lastmod>2026-04-02T09:30:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Static Pages -->
-  <url>
-    <loc>https://dustpost.com/about.html</loc>
-    <lastmod>2026-03-28T08:00:00+00:00</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
-
-  <url>
-    <loc>https://dustpost.com/privacy.html</loc>
-    <lastmod>2026-03-28T08:00:00+00:00</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
-  <url>
-    <loc>https://dustpost.com/contact.html</loc>
-    <lastmod>2026-03-28T08:00:00+00:00</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
-  <!-- Articles -->
-  <url>
-    <loc>https://dustpost.com/story/hdfc-crisis-16billion-wiped.html</loc>
-    <lastmod>2026-04-01T08:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dustpost.com/story/indian-2026-economic-outlook.html</loc>
-    <lastmod>2026-04-01T09:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dustpost.com/story/iran-letter-to-americans.html</loc>
-    <lastmod>2026-04-01T10:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://dustpost.com/story/new-rbi-rules-2026.html</loc>
-    <lastmod>2026-04-01T11:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dustpost.com/story/petrol-diesel-price-hike-india.html</loc>
-    <lastmod>2026-04-01T12:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://dustpost.com/story/raghav-chedha-silenced-by-aap.html</loc>
-    <lastmod>2026-04-02T06:30:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://dustpost.com/story/raymond-founder-vijaypat-singhania-passes-away-at-87.html</loc>
-    <lastmod>2026-04-02T07:15:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://dustpost.com/story/strait-of-hormuz-control.html</loc>
-    <lastmod>2026-04-02T08:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://dustpost.com/story/trump-warns-allies-on-oil-supply.html</loc>
-    <lastmod>2026-04-02T08:45:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://dustpost.com/story/trump-warns-stone-age-to-iran.html</loc>
-    <lastmod>2026-04-02T09:15:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<url>
+<loc>https://dustpost.com/</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://dustpost.com/story/index.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://dustpost.com/about.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://dustpost.com/privacy.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://dustpost.com/contact.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://dustpost.com/index.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/ayatollah-khomeini-assassination.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-casuality-impact.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/impact-on-world-for-iran-usa-war.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-1.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-2.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-3.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-30.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-31.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-4.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-29.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-32.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-5.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.41</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-28.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.41</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-33.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.41</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-6.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.33</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-27.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.33</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-7.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.26</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-26.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.26</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-8.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.21</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-25.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.21</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-9.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.17</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-24.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.17</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-10.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.13</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-23.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.13</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-11.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.11</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-22.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.11</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-12.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.09</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-21.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.09</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-13.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.07</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-20.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.07</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-14.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.05</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-19.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.05</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-15.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.04</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-18.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.04</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-16.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.04</priority>
+</url>
+<url>
+<loc>https://dustpost.com/iran-war/iran-usa-war-day-17.html</loc>
+<lastmod>2026-04-04T07:32:59+00:00</lastmod>
+<priority>0.04</priority>
+</url>
 </urlset>
