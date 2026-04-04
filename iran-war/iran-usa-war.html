@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iran-USA War Timeline: Day-by-Day Coverage | DustPost</title>
+<meta name="description" content="Complete day-by-day documentation of the Iran-USA conflict with official sources, verified tweets, images, and timeline.">
+<link rel="canonical" href="https://dustpost.com/iran-usa-war.html">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+<style>
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #0f1115;
+    color: #e6e6e6;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-bottom: 1px solid #1f2229;
+}
+
+.logo { font-weight: 700; font-size: 30px; }
+.logo span { color: #4da3ff; }
+.nav a { color: #aaa; margin-left: 20px; text-decoration: none; }
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.war-header {
+    background: linear-gradient(135deg, #1a1d24 0%, #252932 100%);
+    border: 1px solid #ff4444;
+    border-radius: 12px;
+    padding: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.war-header h1 {
+    font-size: 36px;
+    margin: 0 0 15px 0;
+    color: #fff;
+}
+
+.war-header .subtitle {
+    color: #ff6b6b;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.status-badge {
+    display: inline-block;
+    background: #ff4444;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.timeline-nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 10px;
+    margin: 40px 0;
+}
+
+.day-card {
+    background: #1a1d24;
+    border: 1px solid #2a2f3a;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #e6e6e6;
+    transition: all 0.3s;
+}
+
+.day-card:hover {
+    border-color: #4da3ff;
+    transform: translateY(-2px);
+}
+
+.day-card.active {
+    border-color: #ff4444;
+    background: #2a1f1f;
+}
+
+.day-number {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4da3ff;
+    display: block;
+}
+
+.day-date {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.day-card.active .day-number {
+    color: #ff4444;
+}
+
+.section-title {
+    font-size: 24px;
+    margin: 40px 0 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #1f2229;
+}
+
+.sources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.source-card {
+    background: #1a1d24;
+    border-left: 4px solid #4da3ff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.source-card.official {
+    border-left-color: #00aa00;
+}
+
+.source-card.social {
+    border-left-color: #1da1f2;
+}
+
+.source-card h3 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+}
+
+.source-card a {
+    color: #4da3ff;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid #1f2229;
+    color: #777;
+    margin-top: 60px;
+}
+
+.update-timeline {
+    background: #1a1d24;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 30px 0;
+}
+
+.timeline-item {
+    padding: 15px 0;
+    border-bottom: 1px solid #2a2f3a;
+    display: flex;
+    gap: 20px;
+}
+
+.timeline-time {
+    color: #4da3ff;
+    font-weight: 600;
+    min-width: 80px;
+}
+
+.timeline-content {
+    flex: 1;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.image-gallery img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #2a2f3a;
+}
+
+.tag {
+    display: inline-block;
+    background: #2a2f3a;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    margin: 30px 0 40px 0;
+}
+
+.blog-card {
+    background: #1a1d24;
+    border: 1px solid #2a2f3a;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #e6e6e6;
+    transition: all 0.3s;
+}
+
+.blog-card:hover {
+    transform: translateY(-4px);
+    border-color: #4da3ff;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 15px;
+}
+
+.blog-content h3 {
+    margin: 0 0 8px 0;
+    font-size: 16px;
+}
+
+.blog-content p {
+    font-size: 13px;
+    color: #aaa;
+}
+</style>
+</head>
+
+<body>
+
+<div class="nav">
+    <div class="logo">Dust<span>Post</span></div>
+    <div>
+        <a href="../index.html">Home</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#sources">Sources</a>
+    </div>
+</div>
+
+<div class="container">
+
+<div class="war-header">
+    <span class="status-badge">ONGOING CONFLICT</span>
+    <h1>Iran-USA War Timeline</h1>
+    <p class="subtitle">Day-by-Day Documentation | 30+ Days of Coverage</p>
+    <p>Started: March 4, 2026 | Last Updated: April 3, 2026</p>
+</div>
+<h2 class="section-title">📰 Latest War Analysis</h2>
+
+<div class="blog-grid">
+
+    <a href="ayatollah-khomeini-assassination.html" class="blog-card">
+        <img src="/images/ayathulla-kamenie-death.jpg" alt="ayatollah-khomeini-assassination">
+        <div class="blog-content">
+            <h3>How the Iran-USA War Began - Prelude to Crisis</h3>
+            <p>Comprehensive background on the fictional Iran-USA War scenario: events before February 28th, the Khamenei assassination catalyst, Israel's regional role, and Iran's retaliation path that led to the March 4 naval clash</p>
+        </div>
+    </a>
+
+    <a href="iran-usa-war-casuality-impact.html" class="blog-card">
+        <img src="/images/iran-usa-casuality.jpg" alt="Iran USA War casualties">
+        <div class="blog-content">
+            <h3>COMPREHENSIVE IMPACT ASSESSMENT: All Casualty, Infrastructure & Verification Data Compiled</h3>
+            <p>This assessment tracks how casualty and damage figures evolved through the conflict's four phases: Initial Escalation (Days 1-7), Verification & De-escalation (Days 8-14), Milestone Certification (Day 14), and Sustained Implementation (Days 15-32+).</p>
+        </div>
+    </a>
+
+    <a href="impact-on-world-for-iran-usa-war.html" class="blog-card">
+        <img src="/images/impact-on-world-war.jpg" alt="India impact analysis">
+        <div class="blog-content">
+            <h3>Impact on World: Oil, Trade & Security</h3>
+            <p>Global Impact Assessment: Oil, Trade & Security in the 2026 Iran-USA Conflict</p>
+        </div>
+    </a>
+
+</div>
+<h2 class="section-title">📅 Select Day</h2>
+<div class="timeline-nav" id="timeline">
+    <!-- Generate day cards -->
+     <a href="iran-usa-war-day-1.html" class="day-card">
+        <span class="day-number">Day 0</span>
+        <span class="day-date">Feb 28</span>
+    </a>
+    <a href="iran-usa-war-day-1.html" class="day-card">
+        <span class="day-number">Day 1</span>
+        <span class="day-date">Mar 4</span>
+    </a>
+    <a href="iran-usa-war-day-1.html" class="day-card">
+        <span class="day-number">Day 1</span>
+        <span class="day-date">Mar 4</span>
+    </a>
+    <a href="iran-usa-war-day-2.html" class="day-card">
+        <span class="day-number">Day 2</span>
+        <span class="day-date">Mar 5</span>
+    </a>
+    <a href="iran-usa-war-day-3.html" class="day-card">
+        <span class="day-number">Day 3</span>
+        <span class="day-date">Mar 6</span>
+    </a>
+    <!-- Continue for all days -->
+    <a href="iran-usa-war-day-30.html" class="day-card active">
+        <span class="day-number">Day 30</span>
+        <span class="day-date">Apr 2</span>
+    </a>
+    <a href="iran-usa-war-day-31.html" class="day-card">
+        <span class="day-number">Day 31</span>
+        <span class="day-date">Apr 3</span>
+    </a>
+</div>
+
+<h2 class="section-title">📊 Quick Stats</h2>
+<div class="sources-grid">
+    <div class="source-card">
+        <h3>📰 Total Articles</h3>
+        <p style="font-size: 32px; font-weight: 700; color: #4da3ff;">31</p>
+    </div>
+    
+    <div class="source-card">
+        <h3>🐦 Verified Tweets</h3>
+        <p style="font-size: 32px; font-weight: 700; color: #4da3ff;">200+</p>
+    </div>
+    <div class="source-card">
+        <h3>📋 Official Statements</h3>
+        <p style="font-size: 32px; font-weight: 700; color: #4da3ff;">85+</p>
+    </div>
+</div>
+
+<h2 class="section-title">🔴 Latest Updates (Day 31)</h2>
+<div class="update-timeline">
+    <div class="timeline-item">
+        <span class="timeline-time">14:30</span>
+        <div class="timeline-content">
+            <strong>Pentagon Briefing</strong>
+            <p>US Central Command reports new developments in Strait of Hormuz...</p>
+            <span class="tag">Official</span>
+            <span class="tag">Military</span>
+        </div>
+    </div>
+    <div class="timeline-item">
+        <span class="timeline-time">12:15</span>
+        <div class="timeline-content">
+            <strong>UN Security Council Meeting</strong>
+            <p>Emergency session called to discuss ceasefire proposals...</p>
+            <span class="tag">Diplomatic</span>
+        </div>
+    </div>
+    <div class="timeline-item">
+        <span class="timeline-time">09:45</span>
+        <div class="timeline-content">
+            <strong>Oil Markets React</strong>
+            <p>Brent crude crosses $115/barrel amid supply concerns...</p>
+            <span class="tag">Economic</span>
+        </div>
+    </div>
+</div>
+
+<h2 class="section-title" id="sources">📚 Verified Sources</h2>
+<div class="sources-grid">
+    <div class="source-card official">
+        <h3>🏛️ Official Government</h3>
+        <ul style="margin: 10px 0; padding-left: 20px;">
+            <li><a href="#">White House Statements</a></li>
+            <li><a href="#">Pentagon Press Releases</a></li>
+            <li><a href="#">State Department</a></li>
+            <li><a href="#">Iranian Foreign Ministry</a></li>
+        </ul>
+    </div>
+    <div class="source-card social">
+        <h3>🐦 Social Media (Verified)</h3>
+        <ul style="margin: 10px 0; padding-left: 20px;">
+            <li><a href="#">@PentagonPresSec</a></li>
+            <li><a href="#">@StateDept</a></li>
+            <li><a href="#">@CENTCOM</a></li>
+            <li><a href="#">Verified Journalists</a></li>
+        </ul>
+    </div>
+    <div class="source-card official">
+        <h3>📰 International Media</h3>
+        <ul style="margin: 10px 0; padding-left: 20px;">
+            <li><a href="#">Reuters</a></li>
+            <li><a href="#">AP News</a></li>
+            <li><a href="#">BBC Monitoring</a></li>
+            <li><a href="#">Al Jazeera</a></li>
+        </ul>
+    </div>
+    <div class="source-card">
+        <h3>🛰️ Satellite Imagery</h3>
+        <ul style="margin: 10px 0; padding-left: 20px;">
+            <li><a href="#">Maxar Technologies</a></li>
+            <li><a href="#">Planet Labs</a></li>
+            <li><a href="#">NASA FIRMS</a></li>
+        </ul>
+    </div>
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 DustPost — War Coverage Section<br>
+Last Updated: April 3, 2026 | Next Update: Daily at 23:59 UTC
+</div>
+
+<script>
+// Auto-generate day cards for days 1-31
+const timelineNav = document.querySelector('.timeline-nav');
+const startDate = new Date('2026-03-04');
+
+function generateDayCards() {
+    let html = '';
+    for (let i = 1; i <= 45; i++) {
+        const currentDate = new Date(startDate);
+        currentDate.setDate(startDate.getDate() + i - 1);
+        const dateStr = currentDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        const activeClass = i === 32 ? 'active' : '';
+        
+        html += `
+            <a href="iran-usa-war-day-${i}.html" class="day-card ${activeClass}">
+                <span class="day-number">Day ${i}</span>
+                <span class="day-date">${dateStr}</span>
+            </a>
+        `;
+    }
+    timelineNav.innerHTML = html;
+}
+
+generateDayCards();
+</script>
+
+</body>
+</html>
