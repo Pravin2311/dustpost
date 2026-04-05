@@ -259,5 +259,25 @@
     "excerpt": "Verified editorial corrections, published retractions, and journalism ethics frameworks. Separates documented accountability mechanisms from unverified narrative claims.",
     "caseRef": "Published Corrections/Retractions; SPJ Code of Ethics; Defamation Litigation Records",
     "tags": ["media-ethics", "editorial-accountability", "corrections"]
+  },
+  {
+    "id": "ALLEGATION-027",
+    "title": "Epstein Flight Logs Analysis",
+    "status": "verified",
+    "date": "2026-05-13",
+    "url": "epstein-flight-log-analysis.html",
+    "excerpt": "Verified editorial corrections, published retractions, and journalism ethics frameworks. Separates documented accountability mechanisms from unverified narrative claims.",
+    "caseRef": "Published Corrections/Retractions; SPJ Code of Ethics; Defamation Litigation Records",
+    "tags": ["media-ethics", "editorial-accountability", "corrections"]
+  },
+  {
+    "id": "ALLEGATION-028",
+    "title": "Epstein Island visitors Breakdown",
+    "status": "verified",
+    "date": "2026-05-13",
+    "url": "epstein-island-visitor-background.html",
+    "excerpt": "Verified editorial corrections, published retractions, and journalism ethics frameworks. Separates documented accountability mechanisms from unverified narrative claims.",
+    "caseRef": "Published Corrections/Retractions; SPJ Code of Ethics; Defamation Litigation Records",
+    "tags": ["media-ethics", "editorial-accountability", "corrections"]
   }
 ]
