@@ -47,7 +47,7 @@ const WarTimeline = {
         }
         
         if (nextBtn) {
-            if (this.currentDay < 31) { // Update when new day added
+            if (this.currentDay < 45) { // Update when new day added
                 nextBtn.classList.remove('disabled');
                 nextBtn.href = `iran-usa-war-day-${this.currentDay + 1}.html`;
                 nextBtn.innerHTML = `Next Day (Day ${this.currentDay + 1}) →`;

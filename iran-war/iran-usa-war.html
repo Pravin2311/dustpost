@@ -263,8 +263,8 @@ body {
 <div class="war-header">
     <span class="status-badge">ONGOING CONFLICT</span>
     <h1>Iran-USA War Timeline</h1>
-    <p class="subtitle">Day-by-Day Documentation | 30+ Days of Coverage</p>
-    <p>Started: March 4, 2026 | Last Updated: April 3, 2026</p>
+    <p class="subtitle">Day-by-Day Documentation | 45+ Days of Coverage</p>
+    <p>Started: March 4, 2026 | Last Updated: April 7, 2026</p>
 </div>
 <h2 class="section-title">📰 Latest War Analysis</h2>
 
@@ -333,7 +333,7 @@ body {
 <div class="sources-grid">
     <div class="source-card">
         <h3>📰 Total Articles</h3>
-        <p style="font-size: 32px; font-weight: 700; color: #4da3ff;">31</p>
+        <p style="font-size: 32px; font-weight: 700; color: #4da3ff;">35+</p>
     </div>
     
     <div class="source-card">
@@ -346,31 +346,87 @@ body {
     </div>
 </div>
 
-<h2 class="section-title">🔴 Latest Updates (Day 31)</h2>
+<h2 class="section-title">🔴 Latest Updates (Day 35)</h2>
 <div class="update-timeline">
     <div class="timeline-item">
-        <span class="timeline-time">14:30</span>
+        <span class="timeline-time">22:45 UTC</span>
         <div class="timeline-content">
-            <strong>Pentagon Briefing</strong>
-            <p>US Central Command reports new developments in Strait of Hormuz...</p>
-            <span class="tag">Official</span>
-            <span class="tag">Military</span>
+            <strong>8 PM EDT Deadline Approaches</strong>
+            <p>World holds breath as Trump’s ultimatum for Iran to reopen Hormuz nears—failure risks “complete demolition” of civilian infrastructure.</p>
+            <span class="tag">Breaking</span>
+            <span class="tag">Deadline</span>
         </div>
     </div>
     <div class="timeline-item">
-        <span class="timeline-time">12:15</span>
+        <span class="timeline-time">20:00 UTC</span>
         <div class="timeline-content">
-            <strong>UN Security Council Meeting</strong>
-            <p>Emergency session called to discuss ceasefire proposals...</p>
+            <strong>Pakistan: “Next 3–4 Hours Critical”</strong>
+            <p>Mediation efforts in crisis after Iran’s strike on Saudi industrial sites; Riyadh’s retaliation could drag Pakistan into war.</p>
             <span class="tag">Diplomatic</span>
+            <span class="tag">Reuters</span>
         </div>
     </div>
     <div class="timeline-item">
-        <span class="timeline-time">09:45</span>
+        <span class="timeline-time">18:10 UTC</span>
         <div class="timeline-content">
-            <strong>Oil Markets React</strong>
-            <p>Brent crude crosses $115/barrel amid supply concerns...</p>
+            <strong>Italy Denies US Base Access</strong>
+            <p>Defense Minister Crosetto warns war “jeopardizes US global leadership” and refuses Sigonella air base use amid fears of nuclear escalation.</p>
+            <span class="tag">Allies</span>
+            <span class="tag">Reuters</span>
+        </div>
+    </div>
+    <div class="timeline-item">
+        <span class="timeline-time">16:30 UTC</span>
+        <div class="timeline-content">
+            <strong>Gulf-Wide Escalation</strong>
+            <p>Iranian drones wound 15 US troops in Kuwait; Saudi Arabia intercepts 18 drones + 7 missiles; Bahrain closes King Fahd Causeway.</p>
+            <span class="tag">Military</span>
+            <span class="tag">Al Jazeera</span>
+        </div>
+    </div>
+    <div class="timeline-item">
+        <span class="timeline-time">14:00 UTC</span>
+        <div class="timeline-content">
+            <strong>Oil Hits $110+/Barrel</strong>
+            <p>IEA declares worst energy crisis in history—worse than 1973, 1979, and 2022 combined—as Kharg Island remains offline.</p>
             <span class="tag">Economic</span>
+            <span class="tag">The Guardian</span>
+        </div>
+    </div>
+    <div class="timeline-item">
+        <span class="timeline-time">11:20 UTC</span>
+        <div class="timeline-content">
+            <strong>Civilian Sites Bombed in Iran</strong>
+            <p>Synagogue destroyed in Tehran; 18 dead in Alborz (including children); IRGC intel chief Majid Khademi assassinated at dawn.</p>
+            <span class="tag">Civilian</span>
+            <span class="tag">Al Jazeera</span>
+        </div>
+    </div>
+    <div class="timeline-item">
+        <span class="timeline-time">08:45 UTC</span>
+        <div class="timeline-content">
+            <strong>Iran Rejects Ceasefire Proposal</strong>
+            <p>Tehran demands end to all US/Israeli strikes, compensation, and security guarantees before any peace talks can begin.</p>
+            <span class="tag">Diplomatic</span>
+            <span class="tag">Reuters</span>
+        </div>
+    </div>
+    <div class="timeline-item">
+        <span class="timeline-time">05:30 UTC</span>
+        <div class="timeline-content">
+            <strong>Trump: “A Whole Civilization Will Die Tonight”</strong>
+            <p>President issues final ultimatum: Reopen Hormuz by 8 PM EDT or face “complete demolition” of power plants, bridges, and national infrastructure.</p>
+            <span class="tag">Official</span>
+            <span class="tag">The Washington Post</span>
+        </div>
+    </div>
+    <div class="timeline-item">
+        <span class="timeline-time">02:15 UTC</span>
+        <div class="timeline-content">
+            <strong>US Strikes Kharg Island (~50 Targets)</strong>
+            <p>Massive raid cripples Iran’s oil exports—Kharg handles ~90% of crude shipments. Revolutionary Guard vows “regret-inducing” retaliation.</p>
+            <span class="tag">Military</span>
+            <span class="tag">New York Post</span>
         </div>
     </div>
 </div>
@@ -432,11 +488,11 @@ function generateDayCards() {
         const currentDate = new Date(startDate);
         currentDate.setDate(startDate.getDate() + i - 1);
         const dateStr = currentDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-        const activeClass = i === 34 ? 'active' : '';
+        const activeClass = i === 35 ? 'active' : '';
         
         html += `
             <a href="iran-usa-war-day-${i}.html" class="day-card ${activeClass}">
-                <span class="day-number">Day ${i}</span>
+                <span class="day-number">Day ${i+3}</span>
                 <span class="day-date">${dateStr}</span>
             </a>
         `;
