@@ -89,7 +89,7 @@ body {
 }
 
 .day-card.active {
-    border-color: #69ff44;
+    border-color: #ffb444;
     background: #2a1f1f;
 }
 
@@ -107,7 +107,7 @@ body {
 }
 
 .day-card.active .day-number {
-    color: #25ea0b;
+    color: #de872a;
 }
 
 .section-title {
@@ -488,7 +488,7 @@ function generateDayCards() {
         const currentDate = new Date(startDate);
         currentDate.setDate(startDate.getDate() + i - 1);
         const dateStr = currentDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-        const activeClass = i === 36 ? 'active' : '';
+        const activeClass = i === 37 ? 'active' : '';
         
         html += `
             <a href="iran-usa-war-day-${i}.html" class="day-card ${activeClass}">
